@@ -72,4 +72,37 @@ nav {
   background-color: #20245f;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
 
+.sidebar {
+  width: 20%;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.sidebar a:hover {
+  color: #23527c;
+}
+
+main {
+  width: 80%;
+  padding: 20px;
+}

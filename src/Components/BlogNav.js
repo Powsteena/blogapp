@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const BlogNav = () => {
   return (
@@ -8,14 +9,13 @@ const BlogNav = () => {
         <span>Blog Platform</span>
       </div>
       <div className="right-side">
-      <div className="links">
-        <a href="#post1">JavaScript</a>
-        <a href="#post2">Data Stucture</a>
-        <a href="#post3">Alogorithm</a>
-        <a href="#post4">Computer Network</a>
-  
-        <input type="text" placeholder="Search..." />
-      </div>
+        <div className="links">
+          <Link to="/post1">JavaScript</Link>
+          <Link to="/post2">Data Structure</Link>
+          <Link to="/post3">Algorithm</Link>
+          <Link to="/post4">Computer Network</Link>
+          <input type="text" placeholder="Search..." />
+        </div>
       </div>
     </nav>
   );

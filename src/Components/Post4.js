@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Post1 = () => {
+const post4 = () => {
   return (
     <div className="card" style={{ margin: '40px 150px ', width: '60%' }}>
       <img src="o" alt="Post 4 Image" />
@@ -12,4 +12,4 @@ const Post1 = () => {
   );
 }
 
-export default Post1;
+export default post4;
